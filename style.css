@@ -1,0 +1,62 @@
+*{
+  font-family: sans-serif;
+}
+
+table, th, td {
+  font-size: 14px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+th {
+	width: 100px;
+    table-layout: fixed;
+}
+
+tr:nth-child(even){
+  background: lightgray;
+}
+tr:nth-child(3), tr:nth-child(5){
+  background: #bfbdbe;
+}
+
+form{
+  width: 300px;
+  font-size: 12px;
+}
+
+.country{
+	color: darkred;
+}
+
+.outer-content{
+  border: 1px solid black;
+  background: pink;
+  padding: 10px;
+}
+.inner-content{
+  padding: 10px;
+  margin: auto;
+  width: 75%;
+  border: 1px solid black;
+  background: lightblue;
+}
+
+#dataIn{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+#form1{
+	background: #e7f1dd;
+  	border: 1px solid black;
+	padding: 10px;
+}
+
+#form2{
+	background: #f1f0cf;
+    border: 1px solid black;
+	padding: 10px;
+}
